@@ -1,0 +1,10 @@
+{
+  "name": "caesars-cipher",
+  "description": "A full stack solution to Caesar's Cipher.  Will take an input phrase and a specified offset ammount, and output the correctly encoded solution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anu Gupta"
+}

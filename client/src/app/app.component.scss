@@ -1,0 +1,147 @@
+$error: #b71301;
+$form: rgba(219, 239, 240, .9);
+$shadow: rgba(58, 33, 24, .75);
+$text: #130801;
+
+main {
+  background: url('../trees.jpg') no-repeat center center scroll;
+  background-color: #fff;
+  background-size: cover;
+  height: 120vh;
+  margin-top: -10vh;
+  margin-left: -10px;
+  width: 105vw;
+}
+
+button {
+  display: block;
+  margin: 5vh auto;
+}
+
+form {
+  background-color: $form;
+  border-radius: 15%;
+  box-shadow: -2px 4px 2px 2px $shadow;
+  color: $text;
+  float: left;
+  margin-top: 2vh;
+  padding: 3rem 0;
+  text-align: center;
+  width: 40vw;
+
+  button {
+    border-color: $text;
+    border-radius: 15%;
+    box-shadow: -1px 1px 1px 1px rgba(58, 33, 24, .35);
+    color: $text;
+    font-style: italic;
+    font-size: .85em;
+    height: 7vh;
+    margin: 0 auto;
+    width: 10vw;
+  }
+
+  fieldset {
+    border: 0px;
+    font-family: monospace;
+    font-size: 1.25em;
+    padding: 15px;
+  }
+
+  input {
+    border-radius: 10%;
+    height: 2rem;
+    text-align: center;
+  }
+
+  small {
+    color: $error;
+    display: block;
+    font-size: .5em;
+    text-align: center;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .invalid {
+    border: 2px solid $error;
+  }
+
+  #phrase {
+    font-size: .75em;
+    width: 25vw;
+  }
+
+  #offset {
+    width: 5vh;
+  }
+}
+
+h1 {
+  background-color: $form;
+  box-shadow: -4px 3px 2px 2px $shadow;
+  font-size: 4em;
+  font-family: cursive;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  width: 85vw;
+}
+
+.display {
+  background-color: $form;
+  box-shadow: -2px 4px 2px 2px $shadow;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 2em;
+  height: 12vh;
+  margin: 8vh auto;
+  padding-top: 6vh;
+  padding-bottom: 0;
+  text-align: center;
+  width: 105vw;
+
+  .error {
+    color: $error;
+    font-size: .75em;
+    font-style: italic;
+  }
+}
+
+.index {
+  background-color: $form;
+  border-radius: 5%;
+  box-shadow: -2px 4px 2px 2px $shadow;
+  color: $text;
+  float: right;
+  height: 45vh;
+  overflow-x: hidden;
+  width: 40vw;
+
+  h4 {
+    font-family: monospace;
+    font-size: 1.25em;
+    font-style: italic;
+    text-align: center;
+  }
+
+  ul {
+    border-right: .35rem dotted $text;
+    min-height: 22vh;
+    overflow-y: scroll;
+  }
+
+  button {
+    border: 1px solid $error;
+    border-radius: 7%;
+    color: $error;
+    height: 1.5rem;
+    font-style: italic;
+  }
+}
